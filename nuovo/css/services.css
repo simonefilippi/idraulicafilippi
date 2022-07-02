@@ -1,0 +1,22 @@
+.service_list {
+	margin-top: 2em;
+	width: 55%;
+}
+
+.service_list_row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.service {
+	height: 4.5em;
+	width: 33%;
+}
+
+.service_middle {
+	text-align: center;
+}
+
+.service_right {
+	text-align: right;
+}
