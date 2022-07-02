@@ -1,0 +1,11 @@
+.edit section:nth-of-type(2) {
+	background: #8ed9856e;
+}
+
+.edit section:nth-of-type(3) {
+	background: #d985856e;
+}
+
+.edit section:nth-of-type(4) {
+	background: #5a4b976e;
+}
