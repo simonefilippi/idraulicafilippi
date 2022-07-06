@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap");
 
 :root {
 	--background: #4c96f7;
@@ -16,6 +16,10 @@ body {
 	width: 100vw;
 	overflow-x: hidden;
 	height: 100vh;
+}
+
+a {
+	color: var(--text_regular);
 }
 
 h1,
@@ -123,4 +127,50 @@ html.has-scroll-dragging {
 .has-scroll-dragging .c-scrollbar_thumb {
 	cursor: -webkit-grabbing;
 	cursor: grabbing;
+}
+
+section {
+	position: fixed;
+}
+
+#tl {
+	top: 1.5rem;
+	left: 2.5rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: -0.025em;
+}
+
+#tl_1 {
+	font-size: 4rem;
+}
+
+#bl {
+	bottom: 1.5rem;
+	left: 2.5rem;
+	font-size: 2rem;
+	line-height: 1.1em;
+	font-weight: 400;
+	font-style: oblique;
+}
+
+#tr {
+	letter-spacing: -0.025em;
+	top: 1.5rem;
+	right: 2.5rem;
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+#tr_span {
+	font-size: 2rem;
+	letter-spacing: 0;
+	padding-right: 0.2em;
+}
+
+#br {
+	bottom: 1.5rem;
+	right: 2.5rem;
+	font-size: 2em;
+	font-weight: 500;
 }
