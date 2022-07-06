@@ -16,10 +16,12 @@ body {
 	width: 100vw;
 	overflow-x: hidden;
 	height: 100vh;
+	color: var(--text_regular);
 }
 
 a {
 	color: var(--text_regular);
+	text-decoration: none;
 }
 
 h1,
@@ -143,15 +145,24 @@ section {
 
 #tl_1 {
 	font-size: 4rem;
+	margin-bottom: -0.1em;
+}
+
+#tl2 {
+	font-size: 1.25em;
+}
+
+#tl3 {
+	margin-top: 1em;
 }
 
 #bl {
 	bottom: 1.5rem;
 	left: 2.5rem;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	line-height: 1.1em;
 	font-weight: 400;
-	font-style: oblique;
+	letter-spacing: -0.025em;
 }
 
 #tr {
@@ -173,4 +184,5 @@ section {
 	right: 2.5rem;
 	font-size: 2em;
 	font-weight: 500;
+	letter-spacing: -0.015em;
 }
