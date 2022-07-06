@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200;300;400;500&display=swap");
+
+:root {
+	--background: #4c96f7;
+	--accent: #f3653a;
+	--text_regular: #1f1f1f;
+	--text_bright: #fff;
+	--lines: rgb(0 0 0 / 5%);
+	font-family: "Kantumruy Pro", sans-serif;
+}
+
+html,
+body {
+	background-color: #4c96f7;
+	font-size: 1vw;
+	width: 100vw;
+	overflow-x: hidden;
+	height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: var(--text_regular);
+	margin-block-start: 0;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 4rem;
+}
+
+h2 {
+	margin-block-end: 0;
+}
+
+h1,
+h2 {
+	user-select: none;
+}
+
+p {
+	color: var(--text_regular);
+	font-size: 1.4rem;
+	line-height: 1.85rem;
+}
+
+::selection {
+	background: var(--accent);
+}
+
+::-webkit-scrollbar {
+	width: 25px;
+}
+::-webkit-scrollbar-button {
+	display: none;
+}
+::-webkit-scrollbar-track {
+	display: none;
+}
+
+::-webkit-scrollbar-thumb {
+	display: none;
+}
+::-webkit-scrollbar-corner {
+	display: none;
+}
+
+/*! locomotive-scroll v3.5.4 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+html.has-scroll-smooth {
+	overflow: hidden;
+}
+
+html.has-scroll-dragging {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.has-scroll-smooth body {
+	overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+	min-height: 100vh;
+}
+
+.c-scrollbar {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 25px;
+	height: calc(100vh - 18px);
+	transform-origin: center right;
+	z-index: 9999;
+	opacity: 0;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.c-scrollbar:hover,
+.has-scroll-scrolling .c-scrollbar,
+.has-scroll-dragging .c-scrollbar {
+	opacity: 1;
+}
+
+.c-scrollbar_thumb {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: var(--accent);
+	width: 25px;
+	border-radius: 2px;
+	margin-right: 10px;
+	margin-top: 9px;
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+.has-scroll-dragging .c-scrollbar_thumb {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
