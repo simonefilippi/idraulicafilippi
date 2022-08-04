@@ -1,45 +1,342 @@
 <!DOCTYPE html>
-<html lang="en" class="">
-	<head>
-		<meta charset="UTF-8" />
-		<title>Idraulica Filippi</title>
 
+<html lang="en">
+	<head>
+		<!-- META -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+		/>
+		<title>Idraulica Filippi</title>
 		<link
 			rel="icon"
 			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2285%22>🧑🏽‍🔧</text></svg>"
 		/>
-
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
 			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 		/>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/elements.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/colors.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/filippi.css" />
 	</head>
+
 	<body>
-		<section id="tl">
-			<div id="tl_1">Idraulica Filippi</div>
-			<div id="tl_2">di Filippi Simone</div>
-			<div id="tl_3">Via Milano, 3<br />18038 Sanremo (IM)</div>
-		</section>
-
-		<section id="bl">
-			<div id="bl_1">
-				<a href="mailto:simonefilippi@live.it" target="_blank"
-					>simonefilippi@live.it</a
-				><br /><a href="mailto:filippisimone@pec.it" target="_blank"
-					>filippisimone@pec.it</a
-				>
+		<!-- LOADING  -->
+		<div class="loading-screen">
+			<div class="inner">
+				<div class="text-box"><h3>Idraulica Filippi</h3></div>
+				<div class="line-frame"><div class="line"></div></div>
 			</div>
-		</section>
+		</div>
 
-		<section id="tr">
-			<div id="tr_1">
-				<a><span id="tr_span">TEL. </span>320 0761240</a>
+		<!-- MENU BUTTON -->
+		<div class="m-menu-button">
+			<div class="burger">
+				<div class="line"></div>
+				<div class="line"></div>
 			</div>
-		</section>
+		</div>
 
-		<section id="br">
-			<div id="br_1">P. IVA 015 543 000 85</div>
-		</section>
+		<!-- MENU -->
+		<div class="m-menu">
+			<div class="m-menu-inner noselect">
+				<ul class="main-items">
+					<li>
+						<a class="scroll-to" href="#chisono"
+							><span class="ti-user"></span>
+							<p class="small">Chi Sono</p></a
+						>
+					</li>
+					<li>
+						<a class="scroll-to" href="#servizi"
+							><span class="ti-check"></span>
+							<p class="small">Servizi</p></a
+						>
+					</li>
+					<li>
+						<a class="scroll-to" href="#realizzazioni"
+							><span class="ti-layout-grid2"></span>
+							<p class="small">Realizzazioni</p></a
+						>
+					</li>
+					<li>
+						<a class="scroll-to" href="#contatti"
+							><span class="ti-comment-alt"></span>
+							<p class="small">Contatti</p></a
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="main">
+			<div class="left-content noselect">
+				<div class="inner-content">
+					<div class="picture-box"><div class="picture"></div></div>
+					<div class="frame-1 frame"></div>
+					<div class="frame-2 frame"></div>
+					<div class="frame-3 frame"></div>
+				</div>
+			</div>
+
+			<div class="right-content">
+				<div class="inner-content">
+					<div class="section-container">
+						<!-- SECTION ( HERO ) -->
+						<div
+							class="section height-100 y-center"
+							style="padding-bottom: 2rem"
+							id="intro"
+						>
+							<div class="container">
+								<h1 class="m-b-5 m-l-fil-2">
+									Idraulica
+									<br class="fil-persisent" />Filippi
+								</h1>
+								<div class="seperator-line"></div>
+								<h1 class="m-b-5 m-l-fil-2 fil-hero-1">
+									Sanremo
+								</h1>
+							</div>
+						</div>
+
+						<!-- ( CHI SONO ) -->
+						<div
+							class="section"
+							style="padding-bottom: 26rem"
+							id="chisono"
+						>
+							<div class="container">
+								<h3 class="m-b-4 m-l-fil-1 scroll-animation">
+									Chi sono
+								</h3>
+								<div
+									class="seperator-line m-b-4 scroll-animation"
+								></div>
+								<p class="scroll-animation">In preparazione.</p>
+							</div>
+						</div>
+
+						<!-- ( SERVIZI ) -->
+						<div
+							class="section"
+							style="padding-bottom: 20rem"
+							id="servizi"
+						>
+							<div class="container">
+								<h3 class="m-b-4 m-l-fil-1 scroll-animation">
+									Servizi
+								</h3>
+								<div
+									class="seperator-line m-b-4 scroll-animation"
+								></div>
+
+								<ul
+									class="accordion"
+									data-active-index="1"
+									data-slide-Speed="200"
+								>
+									<li class="accordion-item scroll-animation">
+										<div class="">
+											<h5>Riparazioni Idrauliche</h5>
+											<div class="icon"></div>
+										</div>
+										<div>
+											<p>
+												Assistenza, manutenzione e
+												riparazione di componenti
+												idraulici - disotturazioni,
+												perdite, Dalla disotturazione di
+												tubi alla riparazione di perdite
+												di acqua e gas,
+											</p>
+										</div>
+									</li>
+
+									<li class="accordion-item scroll-animation">
+										<div class="">
+											<h5>Caldaie e Scaldacqua</h5>
+											<div class="icon"></div>
+										</div>
+										<div>
+											<p>
+												Servizi di assistenza,
+												sostituzione di parti e
+												componenti, lavori di
+												manutenzione ordinaria e
+												straordinaria, pulizia
+												stagionale.
+											</p>
+										</div>
+									</li>
+
+									<li class="accordion-item scroll-animation">
+										<div class="">
+											<h5>Condizionatori</h5>
+											<div class="icon"></div>
+										</div>
+										<div>
+											<p>
+												Certificato a installazione,
+												montaggio e assistenza per
+												condizionatori ed impianti di
+												climatizzazione.
+											</p>
+										</div>
+									</li>
+
+									<li class="accordion-item scroll-animation">
+										<div class="">
+											<h5>Video Ispezioni</h5>
+											<div class="icon"></div>
+										</div>
+										<div>
+											<p>
+												In canne fumarie, tubazioni e
+												condotte - anche in diametri
+												ridotti fino a 32mm.
+											</p>
+										</div>
+									</li>
+
+									<li class="accordion-item scroll-animation">
+										<div class="">
+											<h5>Carotaggi</h5>
+											<div class="icon"></div>
+										</div>
+										<div>
+											<p>
+												Diversi diametri, con ausilio di
+												aspiratore senza polvere - in
+												pareti di mattoni, pietre o
+												calcestruzzo con ferri di
+												armatura.
+											</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- ( REALIZZAZIONI ) -->
+						<div
+							class="section"
+							style="padding-bottom: 20rem"
+							id="#realizzazioni"
+						>
+							<div class="container">
+								<h3 class="m-b-4 m-l-fil-1 scroll-animation">
+									Realizzazioni
+								</h3>
+								<div
+									class="seperator-line m-b-4 scroll-animation"
+								></div>
+
+								<div class="card-grid">
+									<div class="left-side">
+										<div
+											class="item fil-photo fil-photo-left scroll-animation"
+											style="background-color: #181818"
+											data-animation="fade_from_left"
+										></div>
+
+										<div
+											class="item fil-photo fil-photo-left scroll-animation"
+											style="background-color: #181818"
+											data-animation="fade_from_left"
+										></div>
+									</div>
+
+									<div class="right-side m-t-6">
+										<div
+											class="item fil-photo fil-photo-right scroll-animation"
+											style="background-color: #181818"
+											data-animation="fade_from_right"
+										></div>
+
+										<div
+											class="item fil-photo fil-photo-right scroll-animation"
+											style="background-color: #181818"
+											data-animation="fade_from_right"
+										></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="section"
+							style="padding-bottom: 20rem"
+							id="contatti"
+						>
+							<div class="container">
+								<h3 class="m-b-4 m-l-fil-1 scroll-animation">
+									Contatti
+								</h3>
+								<div
+									class="seperator-line m-b-4 scroll-animation"
+								></div>
+
+								<div class="card scroll-animation">
+									<!-- INNER -->
+									<div class="inner">
+										<h3 class="m-b-3 scroll-animation">
+											Idraulica Filippi
+											<br class="fil-persisent" />
+											di Filippi Simone
+										</h3>
+										<p class="m-b-4 scroll-animation">
+											Via Milano, 3
+											<br class="fil-persisent" />18038
+											Sanremo (IM)
+										</p>
+
+										<h3 class="m-b-3 scroll-animation">
+											tel. 320 0761240
+										</h3>
+										<h3 class="m-b-3 scroll-animation">
+											<a
+												href="mailto:simonefilippi@live.it"
+												target="_blank"
+											>
+												simonefilippi@live.it
+											</a>
+											<br class="fil-persisent" />
+
+											<a
+												href="mailto:filippisimone@pec.it"
+												target="_blank"
+											>
+												filippisimone@pec.it
+											</a>
+										</h3>
+										<p class="scroll-animation">
+											P. IVA 015 543 000 85
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- /CONTAINER -->
+						</div>
+						<!-- /SECTION ( CONTACT ) -->
+					</div>
+					<!-- /SECTION CONTAINER -->
+				</div>
+				<!-- /INNER CONTENT -->
+			</div>
+			<!-- /RIGHT CONTENT -->
+		</div>
+		<!-- MAIN -->
+
+		<!-- JAVASCRIPT FILES -->
+		<script src="assets/js/plugins.js"></script>
+		<script src="config.js"></script>
+		<script src="assets/js/scripts.js"></script>
 	</body>
 </html>
