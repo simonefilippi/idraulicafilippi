@@ -89,7 +89,7 @@ var config_scroll_animation_defaults = {
 	duration: 1.2,
 	ease: "power4.out",
 	animation: "fade_from_bottom",
-	once: false,
+	once: false
 };
 
 /** 3. PROFILE PICTURE CONFIG
@@ -149,7 +149,7 @@ var option_hero_background_mode_mobile = "match";
  *******************************************************************/
 
 // BACKGROUND COLOR
-var option_hero_background_color_bg = "#212121";
+var option_hero_background_color_bg = "#1b3b59";
 
 /** 4.2 BACKGROUND CONFIG [ SQUARE BACKGROUND ]
  *******************************************************************/
