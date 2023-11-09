@@ -1,0 +1,69 @@
+
+
+
+
+@media (max-aspect-ratio: 1/1) {
+
+
+    .filippias {
+        font-size:2rem;
+        text-align:center !important;
+    }
+    
+    
+    
+    .filippi_not_mobile {
+        display:none;
+    }
+    
+    /* Panic Button */
+    #panic_button {
+        text-align: center;
+        color: #fff;
+        font-size: 3.25vw;
+        letter-spacing: 0.25em;
+        line-height: 10vw;
+        border-radius: 5vw;
+        position: fixed;
+        width: 50vw;
+        height: 10vw;
+        background: #4d98d1f2;
+        right: 8vw;
+        top: 8vw;
+        z-index: 20;
+        transform: scale(.85);
+        transition: transform .3s ease;
+    }
+    
+    
+    /* Contatti */
+    .filippi_contact_box {
+        text-align:center !important;
+    }
+    
+    .box-icon {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .copyright {
+        margin:auto !important;
+    }
+
+
+    /* Spacers */
+    .filippispacer1 {
+        padding-bottom: 5rem;
+    }
+    
+    .filippispacer2 {
+        padding-bottom: 5rem;
+    }
+    
+    .filippispacer3 {
+        padding-bottom: 5rem;
+    }
+
+
+
+  }

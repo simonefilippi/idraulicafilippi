@@ -1,0 +1,49 @@
+#main {
+    background:#e8d09f;
+}
+
+#panic_button {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5vw;
+    letter-spacing: 0.25em;
+    line-height: 5vw;
+    border-radius: 2.5vw;
+    position: fixed;
+    width: 25vw;
+    height: 5vw;
+    background: #4d98d1f2;
+    right: 80px;
+    top: 80px;
+    z-index: 20;
+    transform: scale(.85);
+    transition: transform .3s ease;
+}
+
+#panic_button:hover {
+    transform:scale(1);
+}
+
+
+.filippide {
+    display:inline;
+}
+
+.filippias {
+    font-size: 4rem;
+    line-height: 135% !important;
+    font-weight:400;
+}
+
+.filippispacer1 {
+    padding-bottom: 10rem;
+}
+
+.filippispacer2 {
+    padding-bottom: 14rem;
+}
+
+
+.filippispacer3 {
+    padding-bottom: 20rem;
+}
